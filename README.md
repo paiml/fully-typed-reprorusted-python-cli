@@ -1,8 +1,8 @@
 # fully-typed-reprorusted-python-cli
 
-[![CI](https://github.com/noahgift/fully-typed-reprorusted-python-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/noahgift/fully-typed-reprorusted-python-cli/actions/workflows/ci.yml)
+[![CI](https://github.com/paiml/fully-typed-reprorusted-python-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/paiml/fully-typed-reprorusted-python-cli/actions/workflows/ci.yml)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
-[![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen.svg)](https://github.com/noahgift/fully-typed-reprorusted-python-cli)
+[![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen.svg)](https://github.com/paiml/fully-typed-reprorusted-python-cli)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 [![Ruff](https://img.shields.io/badge/linter-ruff-purple.svg)](https://github.com/astral-sh/ruff)
 [![uv](https://img.shields.io/badge/package-uv-orange.svg)](https://github.com/astral-sh/uv)
@@ -18,7 +18,7 @@ with every Python file passing `ty` with zero errors.
 
 ```bash
 # Clone and setup
-git clone https://github.com/noahgift/fully-typed-reprorusted-python-cli.git
+git clone https://github.com/paiml/fully-typed-reprorusted-python-cli.git
 cd fully-typed-reprorusted-python-cli
 make setup
 
