@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.json
+.hypothesis/
+
+# Tools
+.ruff_cache/
+.mypy_cache/
+.pmat-work/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Generated
+docs/api/
+*.parquet
+
+# Rust build artifacts
+target/
+*.long-type-*.txt
