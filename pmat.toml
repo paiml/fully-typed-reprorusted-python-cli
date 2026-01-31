@@ -1,0 +1,35 @@
+# PMAT Configuration for fully-typed-reprorusted-python-cli
+# Fully-typed Python-to-Rust CITL transpilation framework
+
+[system]
+project_name = "fully-typed-reprorusted-python-cli"
+project_path = "."
+output_dir = "target/pmat"
+
+[quality]
+max_complexity = 30
+max_cognitive_complexity = 25
+min_coverage = 95.0
+allow_satd = false
+require_docs = true
+lint_compliance = true
+fail_on_violation = true
+
+# Adjusted thresholds for Python corpus projects
+min_provability = 0.40
+min_pattern_diversity = 0.0
+
+[analysis]
+include_patterns = [
+    "**/*.py",
+]
+exclude_patterns = [
+    "**/target/**",
+    "**/__pycache__/**",
+    "**/.*/**",
+    "**/.venv/**",
+]
+max_file_size = 1048576
+max_line_length = 88
+skip_vendor = true
+parallel = true

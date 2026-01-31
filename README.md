@@ -14,6 +14,36 @@ This is a strict-typing retrofit of
 [reprorusted-python-cli](https://github.com/paiml/reprorusted-python-cli),
 with every Python file passing `ty` with zero errors.
 
+## Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/paiml/fully-typed-reprorusted-python-cli.git
+cd fully-typed-reprorusted-python-cli
+
+# Install uv if not already installed
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Install dependencies
+make setup
+```
+
+## Usage
+
+```bash
+# Run all quality gates (5-gate Jidoka pipeline)
+make check
+
+# Run tests with coverage
+make test
+
+# Run full corpus pipeline
+make corpus-pipeline
+
+# Use weak supervision labeler programmatically
+python -c "from reprorusted_python_cli.weak_supervision import WeakSupervisionLabeler; print(WeakSupervisionLabeler())"
+```
+
 ## Demo
 
 ```bash
